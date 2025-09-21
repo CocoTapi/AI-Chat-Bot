@@ -1,9 +1,11 @@
+import { ChatBotStart } from "./components/ChatBotStart"
+
 function App() {
 
   return (
-    <>
-      <div>Hello</div>
-    </>
+    <div className="container">
+      <ChatBotStart/>
+    </div>
   )
 }
 
